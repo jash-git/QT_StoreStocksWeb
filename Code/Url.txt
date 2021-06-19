@@ -1,0 +1,3 @@
+https://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=%s&CHT_CAT2=DATE
+https://goodinfo.tw/StockInfo/StockDividendPolicy.asp?STOCK_ID=%s
+https://goodinfo.tw/StockInfo/StockDividendSchedule.asp?STOCK_ID=%s

@@ -1,0 +1,3 @@
+https://www.wantgoo.com/stock/%s/technical-chart
+https://www.wantgoo.com/stock/%s/dividend-policy/ex-dividend
+https://www.wantgoo.com/stock/%s/enterprise-value/dividend-yield

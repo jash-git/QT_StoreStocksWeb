@@ -1,0 +1,3 @@
+https://tw.stock.yahoo.com/q/ta?s=%s
+https://tw.stock.yahoo.com/d/s/dividend_%s.html
+https://tw.stock.yahoo.com/d/s/dividend_%s.html
