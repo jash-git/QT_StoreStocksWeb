@@ -30,6 +30,7 @@ private:
     Ui::Widget *ui;
     QList<QString> m_ListNo;
     QList<QString> m_ListUrl;
+    void StocksKDChart();
     int m_intIndex=0;
 
 };

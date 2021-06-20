@@ -25,11 +25,11 @@ VS_VERSION_INFO VERSIONINFO
             BEGIN
                 VALUE "CompanyName", "\0"
                 VALUE "FileDescription", "\0"
-                VALUE "FileVersion", "1.0.1.0\0"
+                VALUE "FileVersion", "1.0.1.1\0"
                 VALUE "LegalCopyright", "\0"
                 VALUE "OriginalFilename", "QT_StoreStocksWeb.exe\0"
                 VALUE "ProductName", "QT_StoreStocksWeb\0"
-                VALUE "ProductVersion", "1.0.1.0\0"
+                VALUE "ProductVersion", "1.0.1.1\0"
             END
         END
         BLOCK "VarFileInfo"

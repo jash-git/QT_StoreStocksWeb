@@ -54,6 +54,7 @@ Widget::Widget(QWidget *parent) :
         QString StrBuf;
         StrBuf.sprintf("%d/%d",m_intIndex+1,m_ListNo.size());
         ui->label02->setText(StrBuf);
+        StocksKDChart();
     }
     else
     {
@@ -84,6 +85,7 @@ void Widget::on_pushButton01_clicked()
         QString StrBuf;
         StrBuf.sprintf("%d/%d",m_intIndex+1,m_ListNo.size());
         ui->label02->setText(StrBuf);
+        StocksKDChart();
     }
 }
 
@@ -104,10 +106,11 @@ void Widget::on_pushButton02_clicked()
         QString StrBuf;
         StrBuf.sprintf("%d/%d",m_intIndex+1,m_ListNo.size());
         ui->label02->setText(StrBuf);
+        StocksKDChart();
     }
 }
 
-void Widget::on_pushButton03_clicked()
+void Widget::StocksKDChart()
 {
     /*
     QString StrURL="https://goodinfo.tw/StockInfo/ShowK_Chart.asp?STOCK_ID=";
@@ -126,7 +129,11 @@ void Widget::on_pushButton03_clicked()
     StrURL="QT_StoreStocksWeb ~ "+StrURL;
     this->setWindowTitle(StrURL);
     ui->tabWidget->setCurrentWidget(ui->tab01);
+}
 
+void Widget::on_pushButton03_clicked()
+{
+    StocksKDChart();
 }
 
 void Widget::on_pushButton04_clicked()
